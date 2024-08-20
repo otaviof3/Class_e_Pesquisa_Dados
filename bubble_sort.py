@@ -6,6 +6,15 @@ def bubble(listnumbers):
                     listnumbers[i] = listnumbers[i+1]
                     listnumbers[i+1] = temp
     return listnumbers
-listnumbers = [7,1,8,9,2,5]
-listnumbers = bubble(listnumbers)
-print(listnumbers)
+inverselist = [9,8,7,6,5,4,3,2,1]
+inverselist = bubble(inverselist)
+print(inverselist)
+orderlist = [1,2,3,4,5,6,7,8,9]
+orderlist = bubble(orderlist)
+print(orderlist)
+repeatlist = [7,1,8,9,2,5,7,1,8]
+repeatlist = bubble(repeatlist)
+print(repeatlist)
+randomlist = [7,1,8,9,2,5,3,8,2]
+randomlist = bubble(randomlist)
+print(randomlist)
