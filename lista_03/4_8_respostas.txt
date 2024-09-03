@@ -1,0 +1,15 @@
+4. (a) Verdadeira.
+
+5. (a) O extremo de uma lista já ordenada.
+Justificativa: Se este pivô for selecionado a complexidade do código aumenta.
+
+6. (a) Verdadeira.
+Justificativa: O Bubble Sort precisa continuar verificando a lista, já o Insertion Sort coloca cada elemento na posição correta diretamente, o que reduz o número de comparações e trocas.
+
+7. (C) O elemento central.
+
+8. Nenhuma das alternativas.
+Justificativa:
+Passo 1: [1, 19, 9, 7, 3, 10, 13, 15, 8, 12]
+Passo 2: [1, 9, 19, 7, 3, 10, 13, 15, 8, 12]
+Passo 3: [1, 9, 7, 19, 3, 10, 13, 15, 8, 12]
