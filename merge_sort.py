@@ -1,3 +1,5 @@
+import time
+tempo_i = time.time()
 def merge(mergelist, leng, me, merg):
     n1 = me - leng + 1
     n2 = merg - me
@@ -38,3 +40,6 @@ mergelist = [38, 27, 43, 3, 9, 82, 10]
 numbers = len(mergelist)
 merge_sort(mergelist, 0, numbers - 1)
 print(mergelist)
+tempo_f = time.time()
+tempo = tempo_f - tempo_i
+print(tempo)

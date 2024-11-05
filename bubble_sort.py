@@ -1,3 +1,5 @@
+import time
+tempo_i = time.time()
 def bubble(listnumbers):
     for numbers in range(len(listnumbers)-1, 0, -1):
         for i in range(numbers):
@@ -18,3 +20,6 @@ print(repeatlist)
 randomlist = [7,1,8,9,2,5,3,8,2]
 randomlist = bubble(randomlist)
 print(randomlist)
+tempo_f = time.time()
+tempo = tempo_f - tempo_i
+print(tempo)

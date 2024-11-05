@@ -1,3 +1,5 @@
+import time
+tempo_i = time.time()
 def selectionSort(lista, taman):
     for index in range(taman):
         min_index = index
@@ -19,3 +21,6 @@ lista = [2, 1, 3, 5, 6, 4, 7, 8, 9]
 taman = len(lista)
 selectionSort(lista, taman)
 print(lista)
+tempo_f = time.time()
+tempo = tempo_f - tempo_i
+print(tempo)

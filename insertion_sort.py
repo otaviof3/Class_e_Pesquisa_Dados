@@ -1,3 +1,5 @@
+import time
+tempo_i = time.time()
 def insertionSort(lista):
 	n = len(lista)
 	if n <= 1:
@@ -22,3 +24,6 @@ print(lista)
 lista = [2, 1, 3, 5, 6, 4, 7, 8, 9]
 insertionSort(lista)
 print(lista)
+tempo_f = time.time()
+tempo = tempo_f - tempo_i
+print(tempo)
